@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neev's Portfolio</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <h1><a href="./index.html" style="text-decoration:none; color:inherit;">PortFolio</a></h1>
+            <div class="li">
+                <a href="./index.html"><li>Home</li></a>
+                <a href="#about-me"><li>About Me</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#experience"><li>Experience</li></a>
+                <a href="#contact"><li>Contact Me</li></a>
+            </div>
+            <a href="./resume.pdf" target="_blank"><button id="resume">Resume</button></a>
+        </ul>
+    </nav>
+
+    <div class="master">
+        <header class="intro">
+            <div class="container">
+                <h4>Hello, I’m</h4>
+                <h1>Neev Ahuja</h1>
+                <h4 style="font-weight: 600;">B.Tech Student at GGSIPU</h4>
+                <p>I specialize in Frontend Development and Core Java with a passion for creating user-friendly applications.</p>
+                <button id="contactme">Contact Me</button>
+            </div>
+            <div class="img">
+                <img src="profile.jpeg" alt="Neev's Profile Picture">
+            </div>
+        </header>
+    </div>
+
+    <div class="about-me" id="about-me">
+        <section class="content">
+            <h1>About Me</h1>
+            <p>
+                Hi, I'm <strong>Neev Ahuja</strong>, a passionate <strong>B.Tech student in Computer Science Engineering</strong> at <strong>Guru Tegh Bahadur Institute of Technology (GTBIT)</strong>, affiliated with <strong>Guru Gobind Singh Indraprastha University (GGSIPU)</strong>.
+            </p>
+            <br>
+            <p>
+                My mission is to leverage technology to solve real-world challenges and contribute to the tech ecosystem.
+            </p>
+            <br>
+            <h3>Skills & Interests</h3>
+            <ul>
+                <li>Programming Languages: <strong>Python, Java, C</strong></li>
+                <li>Frameworks: <strong>React.js, Node.js</strong></li>
+                <li>Specialization: <strong>Web Development , Data Structures and Algorithm</strong></li>
+            </ul>
+        </section>
+    </div>
+
+    <section class="cont" id="experience">
+        <div class="header">
+            <h1>My Experience</h1>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Web Development Intern</h3>
+                <span>Codtech Innovations | December 2024 - January 2025</span>
+                <p>Built websites using Html , CSS , JavaScript , React , Node and MongoDB</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-card">
+            <h2><a href="https://github.com/neev-ahuja/chess-java">Java Chess Game</a></h2>
+            <p>A two-player chess game following standard chess rules, built with Java and GUI features.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+            <input type="hidden" name="access_key" value="8dffb8f8-c30d-4023-beed-23eb4ca4a6dd" />
+            <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+            <input type="checkbox" name="botcheck" id="" style="display: none;" />
+    
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" placeholder="Name" required />
+              </div>
+              <div>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="you@company.com" required />
+              </div>
+              <div>
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" placeholder="+91 7893647913" required />
+              </div>
+              <div>
+                <label for="message">Your Message</label>
+                <textarea rows="5" name="message" id="message" placeholder="Your Message" required></textarea>
+              </div>
+              <div>
+                <button type="submit">Send Message</button>
+              </div>
+
+              <p id="result"></p>
+          </form>
+    </section>
+    
+
+
+    <div class="social">
+        <a href="https://wa.me/1234567890"><img src="whatsapp.svg" alt="WhatsApp"></a>
+        <br>
+        <a href="https://linkedin.com/in/neev-ahuja"><img src="linkedin.png" alt="LinkedIn"></a>
+        <br>
+        <a href="https://instagram.com/neev-ahuja"><img src="insta.png" alt="Instagram"></a>
+        <br>
+        <a href=""><img src="https://preview.redd.it/a-proposal-for-a-new-r-github-logo-v0-wl8v8rmmir7d1.png?width=1080&crop=smart&auto=webp&s=28e401abba4695e218c473e8a3c2f7f1579b1d5f" alt=""></a>
+    </div>
+    
+</body>
+
+<script src="index.js"></script>
+</html>

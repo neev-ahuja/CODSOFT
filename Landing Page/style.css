@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+nav {
+    display: flex;
+}
+nav h1{
+    font-size: 1.5em;
+    padding: 20px;
+}
+ul {
+    text-align: right;
+    flex: 1;
+}
+ul li{
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 1.3em;
+    list-style: none;
+    font-family: "Smooch Sans", serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+#buy-now{
+    padding: 30px;
+    background-color: #FF5714;
+}
+.display{
+    background-image: url("./prof.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    color: white;
+}
+.black{
+    display: flex;
+    background-color: rgb(0, 0, 0 , 0.6);
+}
+.contents{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: 15vw;
+    font-size: 1.2em;
+}
+.slides{
+    width: 100%;
+}
+.display h1 , .display h2 , .display p{
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+}
+.read-more{
+    color: white;
+    background: linear-gradient(to right, #f9a825, #ff7043, #ec407a);
+    margin: 10px;
+    margin-left: 0;
+    padding: 10px;
+    font-size: 15px;
+    width: 6vw;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+.container {
+    display: flex;
+    font-weight: 300;
+    background: linear-gradient(to right, #cc2b5e, #753a88) ;
+    color: white;
+}
+.box h1{
+    font-family: "Smooch Sans", serif;
+    font-weight: 600;
+}
+.box{
+    padding: 80px;
+}
+.about-us {
+    width: 100%;
+    padding: 60px 0;
+    position: relative;
+}
+
+.opacity {
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+    border-radius: 15px;
+    margin: auto;
+    width: 90%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+    max-width: 600px;
+    color: #333;
+    text-align: left;
+    padding: 60px;
+}
+
+.about h1 {
+    font-family: "Smooch Sans", serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.read-more {
+    color: white;
+    background: linear-gradient(to right, #f9a825, #ff7043, #ec407a);
+    padding: 10px;
+    font-size: 0.8em;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s;
+}
+
+.read-more:hover {
+    transform: scale(1.1);
+}
+
+.opacity img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: 6vw;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+#services{
+    padding-top: 30px;
+    padding-left: 150px;
+    font-family: "Roboto" , serif;
+}
+.services{
+    display: flex;
+}
+.service-box{
+    width: fit-content;
+    text-align: right;
+    padding: 30px 6.5vw ;
+    transition: ease 0.2s;
+}
+.service-box img{
+    display: block;
+    margin: auto;
+    width: 20vw;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0 , 0.2);
+    cursor: pointer;
+}
+.detail{
+    display: flex;
+    background-color: white;
+    font-size: 20px;
+    text-align: left;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0 , 0.1);
+    transform: translateY(-44px);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.ico{
+    background: linear-gradient(to right, #cc2b5e, #753a88);
+    min-height: 2vw;
+    min-width: 2vw;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.service-box:hover{
+    scale: 1.2;
+}
